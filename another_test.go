@@ -5,7 +5,7 @@ import (
 	"unicode/utf8"
 )
 
-func TestReverse1(t *testing.T) {
+func TestReverse2(t *testing.T) {
 	testcases := []struct {
 		in, want string
 	}{
@@ -21,14 +21,14 @@ func TestReverse1(t *testing.T) {
 	}
 }
 
-func FuzzReverse1(f *testing.F) {
+func FuzzReverse2(foo_bar_fooBar *testing.F) {
 	testcases := []string{"Hello, world", " ", "!12345"}
 	for _, tc := range testcases {
-		f.Add(tc) // Use f.Add to provide a seed corpus
+		foo_bar_fooBar.Add(tc) // Use f.Add to provide a seed corpus
 	}
-	f.Fuzz(func(t *testing.T, orig string) {
-		rev := Reverse1(orig)
-		doubleRev := Reverse1(rev)
+	foo_bar_fooBar.Fuzz(func(t *testing.T, orig string) {
+		rev := Reverse2(orig)
+		doubleRev := Reverse2(rev)
 		if orig != doubleRev {
 			t.Errorf("Before: %q, after: %q", orig, doubleRev)
 		}
