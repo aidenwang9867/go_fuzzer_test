@@ -17,3 +17,78 @@ extern "C" int LLVMFuzzerTestOneInputProperty (const uint8_t * data, size_t size
 }
 
 extern "C" char_8* LLAOWSIFuzFUUUFzfffuZz  ();
+
+int main() {
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ cout << "hello";
+ 
+ return 0;
+}
